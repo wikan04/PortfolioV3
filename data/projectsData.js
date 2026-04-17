@@ -238,6 +238,153 @@ export const projectsData = [
     },
   },
   {
+    id: 4,
+    title: "One Click Media",
+    url: "https://oneclickmedia.co.id/",
+    category: "Web Application",
+    img: "/images/web-project-1.jpg",
+    ProjectHeader: {
+      title: "One Click Media",
+      publishDate: "November, 2025",
+      tags: "Frontend Developer",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "One Click Media",
+        img: "/images/web-project-1.jpg",
+      },
+      {
+        id: uuidv4(),
+        title: "One Click Media",
+        img: "/images/web-project-2.jpg",
+      },
+      {
+        id: uuidv4(),
+        title: "One Click Media",
+        img: "/images/ui-project-1.jpg",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        { id: uuidv4(), title: "Name", details: "One Click Media" },
+        { id: uuidv4(), title: "Services", details: "Digital Media" },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://oneclickmedia.co.id/",
+        },
+        { id: uuidv4(), title: "Phone", details: "-" },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "Rebuild dan redeploy website One Click Media dari shared hosting ke VPS (Private Server), dengan memisahkan frontend dan backend menjadi arsitektur microservices. Website dikembangkan menggunakan Next.js 15+ App Router yang terpisah dari backend Express.js, dengan fokus pada performa, stabilitas, dan kemudahan pengelolaan konten.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Express.js",
+            "Git",
+            "VPS",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Tantangan utama adalah melakukan migrasi arsitektur dari monorepo menjadi microservices (Frontend & Backend terpisah) tanpa mengganggu layanan yang sedang berjalan. Proses ini membutuhkan perencanaan yang matang, termasuk pengelolaan environment variable, konfigurasi deployment di VPS, dan memastikan komunikasi antara frontend Next.js dan backend Express.js berjalan dengan lancar melalui fetch data dan error handling yang tepat.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Selain itu, proses go-live membutuhkan stabilisasi dan bug fixing intensif untuk memastikan website berjalan optimal di lingkungan produksi. Kolaborasi erat dengan DevOps Engineer dan Backend Developer dalam tim Agile menjadi kunci keberhasilan proyek ini, termasuk optimasi performa dan peningkatan user experience setelah deployment.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
+  {
+    id: 5,
+    title: "PT Data Integrasi Inovasi",
+    url: "https://nuha.care/",
+    category: "Web Application",
+    img: "/images/web-project-2.jpg",
+    ProjectHeader: {
+      title: "PT Data Integrasi Inovasi",
+      publishDate: "September, 2025",
+      tags: "Frontend Developer",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "PT Data Integrasi Inovasi",
+        img: "/images/web-project-2.jpg",
+      },
+      {
+        id: uuidv4(),
+        title: "PT Data Integrasi Inovasi",
+        img: "/images/ui-project-2.jpg",
+      },
+      {
+        id: uuidv4(),
+        title: "PT Data Integrasi Inovasi",
+        img: "/images/ui-project-1.jpg",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        { id: uuidv4(), title: "Name", details: "PT Data Integrasi Inovasi" },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "Healthcare & HR Technology",
+        },
+        { id: uuidv4(), title: "Website", details: "https://nuha.care/" },
+        { id: uuidv4(), title: "Phone", details: "-" },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "Mengembangkan dan memelihara dua aplikasi utama: ASHA (Healthcare Information System) dan HRIS. Tujuan utama adalah membangun sistem yang memudahkan manajemen data pasien, tracking berkas dengan workflow otomatis, serta pengelolaan sumber daya manusia secara efisien melalui dashboard analytics yang informatif.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "React.js",
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Zustand",
+            "TanStack Query",
+            "Recharts",
+            "React Hook Form",
+            "Git",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Tantangan utama adalah membangun fitur tracking berkas pasien dengan workflow otomatis yang kompleks, yang membutuhkan state management yang solid menggunakan Zustand dan React Context API. Selain itu, optimasi data fetching dengan TanStack Query diperlukan untuk memastikan performa dashboard analytics yang menampilkan data dalam jumlah besar tetap responsif dan efisien.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Membangun data visualization menggunakan Recharts dan menangani complex form dengan React Hook Form juga menjadi tantangan tersendiri, terutama dalam menjaga konsistensi antarmuka antara aplikasi ASHA dan HRIS. Kolaborasi dengan backend engineer dan QA dalam Agile sprint menjadi kunci untuk memastikan kualitas dan ketepatan waktu pengiriman fitur.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
+  {
     id: 3,
     title: "Caliana Indonesia",
     url: "https://www.caliana.id/",
